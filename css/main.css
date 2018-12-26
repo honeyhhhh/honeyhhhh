@@ -1129,7 +1129,7 @@ pre .javascript .function {
 .logo {
   display: inline-block;
   margin-right: 5px;
-  line-height: 36px;
+  line-height: 20px;
   vertical-align: top;
 }
 .site-title {
@@ -2036,7 +2036,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fffff0;
+  background: #e55e96;
 }
 .links-of-blogroll {
   font-size: 13px;
