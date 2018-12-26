@@ -2036,7 +2036,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e55e96;
+  background: #70ffd0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3371,7 +3371,7 @@ pre .javascript .function {
 }
 .brand {
   background-color: rgba(255,255,255,0);
-  margin-top: 15px;
+  margin-top: 40px;
   padding: 0px;
 }
 .site-title {
