@@ -2036,7 +2036,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #eeafb3;
+  background: #f617ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3364,7 +3364,7 @@ pre .javascript .function {
   margin-top: 0px;
 }
 .container .header-inner {
-  width: 100%;
+  width: 50%;
 }
 .site-meta {
   background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
