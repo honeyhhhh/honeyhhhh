@@ -5,9 +5,9 @@
   <subtitle>lsc&#39;home</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="honeyhhhh.github.io/"/>
+  <link href="http://www.zionlove.site/"/>
   <updated>2018-12-28T17:07:08.184Z</updated>
-  <id>honeyhhhh.github.io/</id>
+  <id>http://www.zionlove.site/</id>
   
   <author>
     <name>Zion</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello myblog!</title>
-    <link href="honeyhhhh.github.io/2018/12/29/diary181228/"/>
-    <id>honeyhhhh.github.io/2018/12/29/diary181228/</id>
+    <link href="http://www.zionlove.site/diary181228/"/>
+    <id>http://www.zionlove.site/diary181228/</id>
     <published>2018-12-28T16:24:01.000Z</published>
     <updated>2018-12-28T17:07:08.184Z</updated>
     
@@ -35,17 +35,17 @@
     
     </summary>
     
-      <category term="diary" scheme="honeyhhhh.github.io/categories/diary/"/>
+      <category term="diary" scheme="http://www.zionlove.site/categories/diary/"/>
     
     
-      <category term="diary" scheme="honeyhhhh.github.io/tags/diary/"/>
+      <category term="diary" scheme="http://www.zionlove.site/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>test2</title>
-    <link href="honeyhhhh.github.io/2018/12/26/test2/"/>
-    <id>honeyhhhh.github.io/2018/12/26/test2/</id>
+    <link href="http://www.zionlove.site/test2/"/>
+    <id>http://www.zionlove.site/test2/</id>
     <published>2018-12-26T06:38:48.000Z</published>
     <updated>2018-12-26T06:45:32.283Z</updated>
     
@@ -53,19 +53,19 @@
     
     </summary>
     
-      <category term="test1" scheme="honeyhhhh.github.io/categories/test1/"/>
+      <category term="test1" scheme="http://www.zionlove.site/categories/test1/"/>
     
     
-      <category term="test1" scheme="honeyhhhh.github.io/tags/test1/"/>
+      <category term="test1" scheme="http://www.zionlove.site/tags/test1/"/>
     
-      <category term="test2" scheme="honeyhhhh.github.io/tags/test2/"/>
+      <category term="test2" scheme="http://www.zionlove.site/tags/test2/"/>
     
   </entry>
   
   <entry>
     <title>test</title>
-    <link href="honeyhhhh.github.io/2018/12/26/test/"/>
-    <id>honeyhhhh.github.io/2018/12/26/test/</id>
+    <link href="http://www.zionlove.site/test/"/>
+    <id>http://www.zionlove.site/test/</id>
     <published>2018-12-26T06:29:40.000Z</published>
     <updated>2018-12-26T06:45:54.053Z</updated>
     
@@ -74,16 +74,16 @@
     </summary>
     
     
-      <category term="test1" scheme="honeyhhhh.github.io/tags/test1/"/>
+      <category term="test1" scheme="http://www.zionlove.site/tags/test1/"/>
     
-      <category term="test2" scheme="honeyhhhh.github.io/tags/test2/"/>
+      <category term="test2" scheme="http://www.zionlove.site/tags/test2/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="honeyhhhh.github.io/2018/12/25/hello-world/"/>
-    <id>honeyhhhh.github.io/2018/12/25/hello-world/</id>
+    <link href="http://www.zionlove.site/hello-world/"/>
+    <id>http://www.zionlove.site/hello-world/</id>
     <published>2018-12-25T06:21:10.899Z</published>
     <updated>2018-12-25T06:21:10.896Z</updated>
     
