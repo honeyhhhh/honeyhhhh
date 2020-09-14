@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+}
+body{
+	background-image: url(/cv/images/ly.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+@font-face{
+  	font-family: zion;
+  	src: url("/cv/fonts/font2.ttf");
+}
+.header{
+	cursor: pointer;
+	min-height: 30px;
+	padding: 10px 15px;
+	background: transparent;
+}
+#pp{
+	position: absolute;;
+	width: 500px;
+	height: 200px;
+	top: 50px;
+	right: -200px;
+}
+
+#pp p{
+	font-family: zion;
+	font-size: 150px;
+	color: white;
+}
+#text{
+	font-size: 20px;
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    top: 100px;
+    right: 400px;
+    text-indent: 25px;
+    border-radius: 10px;
+    border-bottom: solid 8px gray;
+    background-color: rgba(238,238,238,0.75);
+    box-shadow: inset;
+    padding: 10px;
+    text-shadow:2px 2px 4px #f00;
+}
+

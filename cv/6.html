@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>东湖&西湖公园</title>
+	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy | zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+
+	<link rel="stylesheet" href="/cv/css/6.css" type="text/css" media="screen" />
+	
+	<script src="/cv/js/6/jquery.min.js"></script>
+	<script src="/cv/js/6/kwiks.js"></script>
+	
+	<script type="text/javascript">
+		var Main = Main || {};
+
+		jQuery(window).load(function() {
+			window.responsiveFlag = jQuery('#responsiveFlag').css('display');
+			Main.gallery = new Gallery();
+			
+			jQuery(window).resize(function() {
+				Main.gallery.update();
+			});
+		});
+
+		function Gallery(){
+			var self = this;
+				container = jQuery('.flexslider'),
+				clone = container.clone( false );
+				
+			this.init = function (){
+				if( responsiveFlag == 'block' ){
+					var slides = container.find('.slides');
+					
+					slides.kwicks({
+						max : 500,
+						spacing : 0
+					}).find('li > a').click(function (){
+						return false;
+					});
+				} else {
+					container.flexslider();
+				}
+			}
+			this.update = function () {
+				var currentState = jQuery('#responsiveFlag').css('display');
+				
+				if(responsiveFlag != currentState) {
+				
+					responsiveFlag = currentState;
+					container.replaceWith(clone);
+					container = clone;
+					clone = container.clone( false );
+					
+					this.init();	
+				}
+			}
+			
+			this.init();
+		}
+	</script>
+
+	<style type="text/css">
+		.featured{
+			width:960px;
+			margin:50px auto 0 auto; 
+			padding-bottom:50px;
+			margin-bottom:10px;
+			border-bottom:1px dotted #9A9A9A;
+		}
+		body{
+			background-image: url(/cv/images/20.jpg) ,url(/cv/images/11.jpg);
+			background-size: 100% 50%;
+			background-position: top left,bottom right;
+			background-repeat: no-repeat;
+
+		}
+		.header{
+			min-height: 30px;
+			padding: 10px 15px;
+			background: transparent;
+		}
+		@font-face{
+    		font-family: zion;
+    		src: url("/cv/fonts/font2.ttf");
+		}
+
+		.pp{
+			font-family: 宋体;
+			cursor: pointer;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			width: 100%;
+			border-radius: 10px;
+			border: 3px solid;
+			background-color: rgba(238,238,238,0.75);
+			text-align: justify;
+			text-indent: 25px;
+		}
+		.pp:hover{
+			background-color: gray;
+			color: pink;
+			transform: scale(1.05);
+		}
+		.flexslider:hover{
+			transform: scale(1.1);
+		}
+	</style>
+    
+</head>
+<body>
+	<header class="header">
+		<!--logo start-->
+			<a href="index.html" ><img src="/cv/images/back.png"></a>
+		<!--logo end-->
+		
+	</header>
+
+<section id="one" class="featured">
+	<div id="dong">
+		<a href="#"><p>东湖公园</p></a>		
+	</div>
+	<p class="pp">
+		东湖在古代曾属晋江古河曲之一部，六国时因上流水源减少及陆地上升，终成湖泊，是晋江下游江水冲积而成的自然沼泽大湖。宋名七星湖，明称“万婆湖”，在行春门外莺歌里。因泉州城形似鲤，而东湖又似鲤鱼所吐出的珠子，故又称之为“鲤珠湖”。唐代湖面曾达4000多亩，有二公亭、东湖亭，宋代又添波恩亭，明代又建揽古亭。因唐代宰相姜公辅，欧阳詹等名士曾在此活动而闻名于世。
+	</p>
+	<div id="container">
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<a href="#"><img src="/cv/images/66/6.1.jpg" /></a>
+					<div class="flex-caption">
+						<h3>祈风阁</h3>
+						<p>饱蕴“海丝”雄风的一个景点，为公园的至高点，高21米，因古泉州为海上丝绸之路的起点，每当船只出海航行之前都有“祭海”之风俗，乃祈求一帆风顺之意，故名祈风阁。现为公园主要景点，亦为东湖公园的标志性建筑之一</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.6.jpg" /></a>
+					<div class="flex-caption">
+						<h3>星湖荷香</h3>
+						<p>东湖公园自古便有“星湖荷香”盛名，最大的特色莫过于满湖的荷花。荷花规模成片，品种繁多，单瓣、复瓣、重瓣及千瓣型荷花品种均有，从珍稀品种到普通品种在东湖均可寻觅踪影</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.2.jpg" /></a>
+					<div class="flex-caption">
+						<h3>石泉松屏</h3>
+						<p>为东湖公园主大门对景，入口处叠泉瀑布引用“明月松间照，清泉石上流”的意境而建筑。此小品采用中国古典园林构景中的山抑手法，即入口处迎门挡以假山、松柏及古榕，让人无</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.3.jpg" /></a>
+					<div class="flex-caption">
+						<h3>东湖亭</h3>
+						<p>唐代所建，诗云“十里沧波带古亭”，说的就是东湖湖畔东湖亭</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.4.jpg" /></a>
+					<div class="flex-caption">
+						<h3>七星拱月</h3>
+						<p>宋时，东湖二度疏浚，湖中垒土七墩如星斗，东湖因而又得名七星湖。在祈风阁入口处的湖中将七个石灯塔构成北斗布局，架以九曲桥、建有观月亭而构成“七星拱月”景点。</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.5.jpg" /></a>
+					<div class="flex-caption">
+						<h3>东湖桥梁</h3>
+						<p> 东湖公园内共有十一座桥梁，除了“七星拱月”景点的九曲桥，大家熟知的“刺桐桥”外，还有九座桥是以当年大泉州的九大县市来命名的.凤里桥（石狮市）、晋安桥（晋江市）、龙门桥（鲤城区）、龙浔桥（德化县）、螺阳桥（惠安县）、清溪桥（安溪县）、桃源桥（永春县）、武荣桥（南安市）以及瀛洲桥（金门县）</p>
+					</div>
+				</li>
+			</ul>
+	    </div>
+	</div>
+	<span id="f" name="f"></span>
+	<span id="responsiveFlag"></span>
+</section>
+
+<section id="two" class="featured">
+	<div id="xi">
+		<a href="#"><p>西湖公园</p></a>		
+	</div>
+	<p class="pp">
+			西湖公园位于泉州市区西北部，清源山南麓，占地面积约100公顷, 其中水域面积82.28公顷，滞洪库容208万立方米,是西北洋滞洪排涝工程的重要组成部分，也是迄今福建省各地市区内水域面积最大的公园。
+	</p>
+	<div id="container">
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<a href="#"><img src="/cv/images/66/6.12.jpg" /></a>
+					<div class="flex-caption">
+						<h3>全景</h3>
+						<p></p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.7.jpg" /></a>
+					<div class="flex-caption">
+						<h3>南北水榭</h3>
+						<p>主要由水榭、船舫、亭、平台通过园路和曲桥连接而成，建筑物充分结合部分园林小品，体现泉州特色古典水上园林风景。</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.8.jpg" /></a>
+					<div class="flex-caption">
+						<h3>音乐喷泉</h3>
+						<p>整体外型以条形布局为框架，中心高喷100米，加上水火景观，以及贯穿全轴的喷雾和夜景灯，优美水阵犹如翩翩起舞、婀娜多姿的渔家少女，伴火而歌、伴火而舞，动人的旋律和美轮美奂的画面，成为市区夜晚一道靓丽的风景线。泉州，以泉为名，水是城市的灵魂，更是城市的命脉，西湖公园水景音乐喷泉正是以独特的水体为文化符号，展示了海滨邹鲁泉州的文化特色和精神底蕴</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.9.jpg" /></a>
+					<div class="flex-caption">
+						<h3>李贽广场</h3>
+						<p>雕像采用一块五米多高的巨石整体雕凿而成，设计者中国工艺美术大师卢思立以写实的手法，把雕像的情态形象定位在“深沉思考的思想家”这一坐标上，着力塑造李贽的脸部表情，同时与粗线条形体衣褶大胆有机结合，既加强了李贽刚毅的性格，又将人们的视线集中引向耐人寻味的脸部形象，使人仿佛看到这位近代思想启蒙大师在宁静而秀丽的故乡西湖之畔沉思孜孜求索的精神。</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="/cv/images/66/6.10.jpg" /></a>
+					<div class="flex-caption">
+						<h3>刺桐阁</h3>
+						<p>登高远眺，园外美景尽入眼底，北面是国家重点风景区清源山，南面是著名的宋代开元寺双塔，东面是大坪山公园郑成功的巨大雕像，西面是美丽的田园风光</p>
+					</div>
+				</li>
+			</ul>
+	    </div>
+	</div>
+	<span id="responsiveFlag"></span>
+</section>
+			
+
+</div>
+</body></html>
